@@ -1,0 +1,1 @@
+echo "licenta" | sudo -S cat /sys/class/dmi/id/product_serial
