@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 cron_schedule="* * * * *"
 curl_command="curl -X POST http://$2:8080/load-db"
