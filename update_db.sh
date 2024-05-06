@@ -15,4 +15,8 @@ if [ -z "$lock" ]; then
     rm /tmp/my_cron_job
 
     echo "$1" | sudo -S touch /monitoring_lockfile
+
+    echo "The data has started to be sent to the database"
+else
+    echo "The data is already sending to the database"
 fi
