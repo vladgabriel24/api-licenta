@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 cron_schedule="* * * * *"
-curl_command="curl -X POST http://$2:8080/load-db"
+curl_command="curl -X POST http://$2:8080/api/load-db"
 
 # Verificam exista lockfile-ul
 lock=$(ls -al / | grep monitoring_lockfile)
